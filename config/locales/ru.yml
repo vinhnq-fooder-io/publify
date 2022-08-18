@@ -1,0 +1,34 @@
+---
+ru:
+  articles:
+    comment_counter:
+      comments:
+        few: 'Комментариев: %{count}'
+        many: 'Комментариев: %{count}'
+        one: 1 комментарий
+        other: 'Комментариев: %{count}'
+        zero: Нет комментариев
+    comment_form:
+      comment: Ответить на пост
+      email_address: Электронная почта
+      your_website: Веб-сайт
+    meta:
+      published_on_html: Опубликовано %{publish_date_and_time} автором %{by} под тегами
+        %{tags}
+    read:
+      add_me_to_twitter: отправить в Twitter
+      if_you_liked_this_article_you_can_html: Если Вам понравилась эта статья Вы можете
+        %{add_twitter}
+      trackbacks_for: Обратные ссылки для
+    search:
+      search_results_for: Результаты поиска для '%{query}'
+  comments:
+    comment:
+      by: от
+  layouts:
+    default:
+      archives: Архивы
+      statuses: Статусы
+  pagination:
+    next: Следующая
+    previous: Предыдущая

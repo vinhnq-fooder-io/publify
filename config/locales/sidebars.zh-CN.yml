@@ -1,0 +1,18 @@
+---
+zh-CN:
+  authors_sidebar:
+    content:
+      authors: Authors
+  notes_sidebar:
+    content:
+      view_on_twitter: View on Twitter
+  popular_sidebar:
+    content:
+      comments: Comments
+      nothing_to_show_yet: Nothing to show yet
+  xml_sidebar:
+    content:
+      articles: Articles
+      feedback: Feedback
+      syndicate: Syndicate
+      tag: Tag

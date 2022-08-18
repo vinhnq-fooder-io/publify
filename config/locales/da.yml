@@ -1,0 +1,30 @@
+---
+da:
+  articles:
+    comment_counter:
+      comments:
+        one: 1 kommentar
+        other: "%{count} kommentarer"
+        zero: Ingen kommentarer
+    comment_form:
+      comment: Kommenter
+      email_address: Email adresse
+      your_website: Din hjemmeside
+    meta:
+      published_on_html: Udgivet %{publish_date_and_time} af %{by}, tags %{tags}
+    read:
+      add_me_to_twitter: Tilføj mig på Twitter
+      if_you_liked_this_article_you_can_html: Hvis du kan lide denne artikel så %{add_twitter}
+      trackbacks_for: Trackbacks for
+    search:
+      search_results_for: Søgeresultater for '%{query}'
+  comments:
+    comment:
+      by: af
+  layouts:
+    default:
+      archives: Arkiver
+      statuses: Statuser
+  pagination:
+    next: Næste
+    previous: Forrige

@@ -1,0 +1,19 @@
+login: &login
+  adapter: mysql2
+  host: 127.0.0.1
+  username: root
+  password: mysql
+  port: 3306
+
+
+development:
+  database: publify_dev
+  <<: *login
+
+test:
+  database: publify_test
+  <<: *login
+
+production:
+  database: publify
+  <<: *login

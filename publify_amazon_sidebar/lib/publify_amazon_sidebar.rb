@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+require "publify_core"
+require "publify_amazon_sidebar/engine"
+require "sidebar_registry"
+
+module PublifyAmazonSidebar
+  SidebarRegistry.register_sidebar "AmazonSidebar"
+end

@@ -7,9 +7,14 @@ class NotesSidebar < Sidebar
 
   attr_accessor :notes
 
+  attr_reader :bar, :baz
+
   def parse_request(_contents, params)
     @notes = Note.published.page(params[:page]).per(count)
   end
+
+  def foobar; end
+
 end
 
 SidebarRegistry.register_sidebar NotesSidebar

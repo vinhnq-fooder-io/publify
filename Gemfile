@@ -37,6 +37,10 @@ gem "rack-attack", "~> 6.5"
 gem "net-smtp", "~> 0.3.1"
 gem "psych", "~> 4.0"
 
+gem "pronto", "~> 0.11"
+gem 'faraday-retry', require: false
+gem 'pronto-rubocop', require: false
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
